@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Degree";
+}
+
+<h2>@ViewBag.DegreeName</h2>
+
+<container>
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>Coordinator</h2>
+            <p>&nbsp;&nbsp;@ViewBag.Coordinator</p>
+            <p>&nbsp;&nbsp;@ViewBag.ProfTitle</p>
+            <br /><br />
+            <p>Office: @ViewBag.Office</p>
+            <br /><br />
+            <ul>
+                <li>@ViewBag.PhD</li>
+                <li>@ViewBag.Masters</li>
+                <li>@ViewBag.Bachelors</li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <img src="~/Images/@ViewBag.Picture" />
+        </div>
+    </div>
+</container>
+
