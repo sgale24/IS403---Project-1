@@ -5,8 +5,6 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -30,7 +28,17 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
-    height: 400px;
-    vertical-align: middle;
+    height: 600px;
+    position: relative;
+}
+
+.jumbotron-content{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; 
 }
