@@ -47,5 +47,10 @@ namespace Project1.Controllers
                 return View();
             }
         }
+
+        public ActionResult ChooseDegree()
+    {
+        return View("ChooseDegree");
+    }
     }
 }
