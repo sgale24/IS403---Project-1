@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "ChooseDegree";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ChooseDegree</h2>
+
+
+<a href='@Url.Action("Degree", "Degrees", new { degree = "BSIS" })'>
+    <div class="btn btn-default">BSIS</div>
+</a>
+<a href='@Url.Action("Degree", "Degrees", new { degree = "MISM" })'>
+    <div class="btn btn-default">MISM</div>
+</a>
+
