@@ -42,3 +42,16 @@ textarea {
     padding-top: 20px;
     padding-bottom: 20px; 
 }
+
+.questionForm{
+    border: thin;
+    border-color: blanchedalmond;
+}
+
+#profpanel{
+    width: 100%;
+}
+
+.panel-heading{
+    font-size: large;
+}
