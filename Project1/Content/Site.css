@@ -1,11 +1,36 @@
 ﻿body {
-    padding-top: 50px;
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     padding-bottom: 20px;
+}
+
+.row {
+    text-align: center;
+    padding: 25px;
+}
+
+.bg-dark{
+    background-color: #0a376a;
+    color: white;
+    text-align: center;
+    height: 150px;
+    padding: 25px;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background-color: #FBFBFB;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    padding: 15px;
 }
+
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -23,7 +48,7 @@ textarea {
 
 .jumbotron{
     margin-bottom: 0px;
-    background-image: url(../Images/header1.jpeg);
+    background-image: url(../Images/header5.jpeg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,17 +82,92 @@ textarea {
     font-size: large;
 }
 
-.navbar{
-    background-color: #073164;
+.navbar-default {
+  background-color: #001948;
+  border-color: #0a376a;
+}
+.navbar-default .navbar-brand {
+  color: #d1e4f6;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #d1e4f6;
+}
+.navbar-default .navbar-text {
+  color: #d1e4f6;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #d1e4f6;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #d1e4f6;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #001948;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #d1e4f6;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #d1e4f6;
+  background-color: #0a376a;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #0a376a;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #d1e4f6;
+  background-color: #0a376a;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #d1e4f6;
+  background-color: #0a376a;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #d1e4f6;
+  background-color: #0a376a;
+}
+.navbar-default .navbar-toggle {
+  border-color: #0a376a;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #0a376a;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #d1e4f6;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #d1e4f6;
+}
+.navbar-default .navbar-link {
+  color: #d1e4f6;
+}
+.navbar-default .navbar-link:hover {
+  color: #d1e4f6;
 }
 
-.navbar-inverse{
-    background-color: #073164;
-}
-.navbar-collapse{
-    background-color: #073164;
-}
-
-.navbar-fixed-top{
-    background-color: #073164;
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #d1e4f6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #d1e4f6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #d1e4f6;
+    background-color: #0a376a;
+  }
 }

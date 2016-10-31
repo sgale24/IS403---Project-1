@@ -15,20 +15,25 @@ namespace Project1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            //ViewBag.Message = "Why Information Systems?";
 
             return View();
-        }
+        
+       }
+        
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            //ViewBag.Message = "Your contact page.";
 
             return View();
         }
-
-        public ActionResult Landing()
+        [HttpPost]
+        public ActionResult Contact(FormCollection collection)
         {
+            // This will clear whatever form items have been populated
+            ModelState.Clear();
+
             return View();
         }
     }
