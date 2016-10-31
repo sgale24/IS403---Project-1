@@ -26,10 +26,5 @@ namespace Project1.Controllers
 
             return View();
         }
-
-        public ActionResult Landing()
-        {
-            return View();
-        }
     }
 }
