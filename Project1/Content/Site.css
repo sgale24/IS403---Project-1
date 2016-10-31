@@ -38,6 +38,7 @@ textarea {
     top: 35%;
     width: 100%;
     background-color: rgba(0,0,0,0.75);
+    color: white;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px; 
@@ -54,4 +55,19 @@ textarea {
 
 .panel-heading{
     font-size: large;
+}
+
+.navbar{
+    background-color: #073164;
+}
+
+.navbar-inverse{
+    background-color: #073164;
+}
+.navbar-collapse{
+    background-color: #073164;
+}
+
+.navbar-fixed-top{
+    background-color: #073164;
 }

@@ -8,8 +8,14 @@
 <div class="jumbotron">
     <div class="jumbotron-content">
         <h1>Welcome to Information Systems!</h1>
-        <a href='@Url.Action("ChooseDegree", "Degrees")'>
-            <btn class="btn btn-default">Learn More</btn>
+        <a class="col-md-2 col-md-offset-3" href='@Url.Action("ChooseDegree", "Degrees")'>
+            <btn class="btn btn-default">Degrees</btn>
+        </a>
+        <a class="col-md-2" href='@Url.Action("About", "Home")'>
+            <btn class="btn btn-default">About Us</btn>
+        </a>
+        <a class="col-md-2" href='@Url.Action("Contact", "Home")'>
+            <btn class="btn btn-default">Contact</btn>
         </a>
     </div>
 </div>
