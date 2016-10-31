@@ -1,17 +1,61 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Contact Us";
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<h3>Want to Get in Touch?</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+
+
+<div class-="container">
+     <div class="row">
+        <div class="col-sm-4">
+            <div class="panel panel-default" id="profpanel">
+                <div class="panel-heading">Caroline Thorne</div>
+                <div class="panel-body">
+                    <h4>Program Advisor</h4>
+                    <p><strong>Office:</strong> 789 TNRB</p>
+                    <p><strong>Phone:</strong> (801) 422-5602</p>
+                    <p><strong>Email:</strong> <a href="mailto:is.advisor@byu.edu">is.advisor@byu.edu</a></p>
+                </div>
+            </div>
+            <div class="panel panel-default" id="profpanel">
+                <div class="panel-heading">Ashlyn Lewis</div>
+                <div class="panel-body">
+                    <h4>Information Systems Department Secretary</h4>
+                    <p><strong>Office:</strong> 790 TNRB</p>
+                    <p><strong>Phone:</strong> (801) 422-5379</p>
+                    <p><strong>Email:</strong> <a href="mailto:is.department@byu.edu">is.department@byu.edu</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+         <div class="col-sm-6">
+             <h3>Send Us An Email</h3>
+             <form class="questionForm">
+                 <div class="form-group">
+                     <label for="firstName">First Name</label>
+                     <input type="password" class="form-control " id="firstName" placeholder="First Name">
+                 </div>
+                 <div class="form-group">
+                     <label for="lastName">Last Name</label>
+                     <input type="password" class="form-control" id="lastName" placeholder="Last Name">
+                 </div>
+                 <div class="form-group">
+                     <label for="inputEmail1">Email address</label>
+                     <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                 </div>
+                    
+                 <div class="form-group">
+                     <label for="Textarea">Email Body:</label>
+                     <textarea class="form-control" id="exampleTextarea" rows="4"></textarea>
+                 </div>
+                 <button type="submit" class="btn btn-primary">Submit</button>
+                 
+             </form>
+         </div>
+         
+    </div>
+</div>
+
