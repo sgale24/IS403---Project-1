@@ -16,6 +16,24 @@
     padding: 25px;
 }
 
+.degreebtnposition{
+   position: relative;
+   top: 65%;
+}
+
+.degreebtn{
+    background-color: #0a376a;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .full {
@@ -46,6 +64,11 @@ textarea {
     max-width: 280px;
 }
 
+.questionHeading{
+    text-align: left;
+}
+
+
 .jumbotron{
     margin-bottom: 0px;
     background-image: url(../Images/header5.jpeg);
@@ -69,6 +92,7 @@ textarea {
     padding-bottom: 20px; 
 }
 
+
 .questionForm{
     border: thin;
     border-color: blanchedalmond;
@@ -79,7 +103,7 @@ textarea {
 }
 
 .panel-heading{
-    font-size: large;
+    font-size: x-large;
 }
 
 .navbar-default {
@@ -170,4 +194,10 @@ textarea {
     color: #d1e4f6;
     background-color: #0a376a;
   }
+}
+
+.professor{
+    display: block;
+    align-content: center;
+    width: 100%;
 }
