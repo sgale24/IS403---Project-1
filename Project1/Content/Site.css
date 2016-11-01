@@ -1,4 +1,70 @@
-﻿body {
+﻿
+.addButton p{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+   
+}
+
+
+.back {
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.addButton {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: #4A90E2;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    
+
+}
+
+.backcolor{
+    
+}
+.tile {
+    margin-top: 30px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    box-shadow: 4px 2px 16px 10px rgba(0,0,0,0.10);
+
+}
+
+.profileImage {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.tile p {
+    font-family: 'Avenir';
+    font-size: 14px;
+}
+
+.tile h1 {
+    font-family: 'Avenir';
+    font-size: 24px;
+}
+
+.tile h3 {
+    margin: 0px;
+    font-family: 'Avenir';
+    font-size: 12px;
+}
+
+.eventText {
+    margin: 30px;
+}
+
+
+body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     padding-bottom: 20px;
 }
@@ -14,24 +80,6 @@
     text-align: center;
     height: 150px;
     padding: 25px;
-}
-
-.degreebtnposition{
-   position: relative;
-   top: 65%;
-}
-
-.degreebtn{
-    background-color: #0a376a;
-    color: white;
-    border: none;
-    padding: 25px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
@@ -64,11 +112,6 @@ textarea {
     max-width: 280px;
 }
 
-.questionHeading{
-    text-align: left;
-}
-
-
 .jumbotron{
     margin-bottom: 0px;
     background-image: url(../Images/header5.jpeg);
@@ -92,7 +135,6 @@ textarea {
     padding-bottom: 20px; 
 }
 
-
 .questionForm{
     border: thin;
     border-color: blanchedalmond;
@@ -103,7 +145,7 @@ textarea {
 }
 
 .panel-heading{
-    font-size: x-large;
+    font-size: large;
 }
 
 .navbar-default {
@@ -194,10 +236,4 @@ textarea {
     color: #d1e4f6;
     background-color: #0a376a;
   }
-}
-
-.professor{
-    display: block;
-    align-content: center;
-    width: 100%;
 }

@@ -10,17 +10,17 @@
         <div class="panel panel-default" id="profpanel">
             <div class="panel-heading">Coordinator</div>
             <div class="panel-body">
-                <h3>@ViewBag.Coordinator</h3>
-                <h4>@ViewBag.ProfTitle</h4>
-                <img src="~/Images/@ViewBag.Picture" class="img-responsive professor" />
+                <p>@ViewBag.Coordinator</p>
+                <p>@ViewBag.ProfTitle</p>
+                <img src="~/Images/@ViewBag.Picture" class="img-responsive" />
                 <br /><br />
-                <p><strong>Office:</strong> @ViewBag.Office</p>
+                <p>Office: @ViewBag.Office</p>
                 <br />
-               <!--<ul style="list-style: none;">-->
-                    <p>@ViewBag.PhD</p>
-                    <p>@ViewBag.Masters</p>
-                    <p>@ViewBag.Bachelors</p>
-               <!-- </ul>-->
+                <ul>
+                    <li>@ViewBag.PhD</li>
+                    <li>@ViewBag.Masters</li>
+                    <li>@ViewBag.Bachelors</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -37,15 +37,6 @@
                     <div id="collapse1" class="panel-collapse collapse">
                         <div class="panel-body">
                             @ViewBag.Answer1
-                            <br />
-                            <form class="questionForm">
-                                <div class="form-inline">
-                                    <label for="Textarea">Reply:</label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="1" columns="6"></textarea>
-                                    <button type="reset" class="btn btn-primary">Submit</button>
-                                </div>
-                                
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -58,15 +49,6 @@
                     <div id="collapse2" class="panel-collapse collapse">
                         <div class="panel-body">
                             @ViewBag.Answer2
-                            <br />
-                            <form class="questionForm">
-                                <div class="form-inline">
-                                    <label for="Textarea">Reply:</label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="1" columns="6"></textarea>
-                                    <button type="reset" class="btn btn-primary">Submit</button>
-                                </div>
-                               
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -79,15 +61,6 @@
                     <div id="collapse3" class="panel-collapse collapse">
                         <div class="panel-body">
                             @ViewBag.Answer3
-                            <br />
-                            <form class="questionForm">
-                                <div class="form-inline">
-                                    <label for="Textarea">Reply:</label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="1" columns="6"></textarea>
-                                    <button type="reset" class="btn btn-primary">Submit</button>
-                                </div>
-                                
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -100,46 +73,35 @@
                     <div id="collapse4" class="panel-collapse collapse">
                         <div class="panel-body">
                             @ViewBag.Answer4
-                            <br />
-                            <form class="questionForm">
-                                <div class="form-inline">
-                                    <label for="Textarea">Reply:</label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="1" column="5"></textarea>
-                                    <button type="reset" class="btn btn-primary">Submit</button>
-                                </div>                               
-                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--Form to submit a new question-->
-            
-                <h3 class="questionHeading">Submit a Question</h3>
-                <form class="questionForm pull-left">
-                    <div class="form-inline">
-                        <label for="firstName">First Name</label>
-                        <input class="form-control]" size="40" id="firstName" placeholder="First Name">
-                    </div>
-                    <br />
-                    <div class="form-inline">
-                        <label for="lastName">Last Name</label>
-                        <input class="form-control" size="40" id="lastName" placeholder="Last Name">
-                    </div>
-                    <br />
-                    <div class="form-inline">
-                        <label for="inputEmail1">Email address</label>
-                        <input type="email" class="form-control" size="40" id="inputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                    <br />
-                    <div class="form-inline">
-                        <label for="Textarea">Question:</label>
-                        <textarea class="form-control" size="45" id="exampleTextarea" rows="4"></textarea>
-                    </div>
-                    <br />
-                    <button type="reset" class="btn btn-primary">Submit</button>
-                </form>
-</div>
+        </div>
     </div>
 </div>
-<footer></footer>
+<!--Form to submit a new question-->
+<footer>
+    <h3>Submit a Question</h3>
+    <form class="questionForm">
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="password" class="form-control" id="firstName" placeholder="First Name">
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="password" class="form-control" id="lastName" placeholder="Last Name">
+        </div>
+        <div class="form-group">
+            <label for="inputEmail1">Email address</label>
+            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="Textarea">Question:</label>
+            <textarea class="form-control" id="exampleTextarea" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</footer>
 
