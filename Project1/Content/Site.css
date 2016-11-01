@@ -145,7 +145,7 @@ textarea {
 }
 
 .panel-heading{
-    font-size: large;
+    font-size: x-large;
 }
 
 .navbar-default {
@@ -236,15 +236,40 @@ textarea {
     color: #d1e4f6;
     background-color: #0a376a;
   }
-<<<<<<< HEAD
+
 }
 
-<<<<<<< HEAD
+.degreebtnposition{
+   position: relative;
+   top: 65%;
+}
+
+.degreebtn{
+    background-color: #0a376a;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.questionHeading{
+    text-align: left;
+}
+
+
+
+
 .btn btn-default{
     padding: 30px;
-=======
+
 .professor{
     display: block;
     align-content: center;
     width: 100%;
+
 }
