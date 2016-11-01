@@ -171,3 +171,7 @@ textarea {
     background-color: #0a376a;
   }
 }
+
+.btn btn-default{
+    padding: 30px;
+}
