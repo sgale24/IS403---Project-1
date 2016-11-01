@@ -236,6 +236,7 @@ textarea {
     color: #d1e4f6;
     background-color: #0a376a;
   }
+<<<<<<< HEAD
 }
 
 .degreebtnposition{
@@ -260,8 +261,23 @@ textarea {
     text-align: left;
 }
 
+=======
+<<<<<<< HEAD
+}
+
+<<<<<<< HEAD
+.btn btn-default{
+    padding: 30px;
+=======
+>>>>>>> master
 .professor{
     display: block;
     align-content: center;
     width: 100%;
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
+>>>>>>> master
 }
