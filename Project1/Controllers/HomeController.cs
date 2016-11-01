@@ -36,5 +36,12 @@ namespace Project1.Controllers
 
             return View();
         }
+
+        public ActionResult Calendar()
+        {
+            //ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

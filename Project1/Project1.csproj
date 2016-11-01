@@ -231,6 +231,7 @@
     <Content Include="Views\Degrees\Degree.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Degrees\ChooseDegree.cshtml" />
+    <Content Include="Views\Home\Calendar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
